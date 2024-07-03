@@ -16,6 +16,7 @@
     box-sizing: border-box;  
   }
   body{
+    height: auto;
     margin: 0;
     padding: 0;
     font-family: "Playfair Display", sans-serif;
@@ -116,7 +117,7 @@ a:hover.cart_link{
   /* section1 */
   .section1{
     width: 100%;
-    height: 86vh;
+    min-height: 95vh;
     position: relative;
     margin-top: 5rem;
     overflow: hidden;
@@ -131,13 +132,12 @@ a:hover.cart_link{
    
   }
   img.gold_blackvase{
-    height: 485px;
-    width: 99%;
+    height: 450px;
+    width: 130%;
     display: block;
     margin-top: 8rem;
-    margin-right: 42rem;
-    
-    
+    margin-right: 20rem;
+  padding-right: 15rem;
   }
   p.p_section_a{
     color: rgb(194, 42, 42);
@@ -162,6 +162,7 @@ p.p_section_b{
     color: rgba(0, 0, 0, 0.616);
     font-weight: 500;
     
+    
 }
 
   
@@ -181,18 +182,18 @@ margin-top: 2rem;}
    position: relative;
         left: 2.5rem;
         top: 4rem;
-       
-      
+    
     }
     div.first_contents{
       line-height: 3rem;
+
     }
 
     /* section2 */
 
     .section2{
-      width: 100%;
-      height: 140vh;
+      max-width: 100%;
+      min-height: 140vh;
       border-bottom: 1px solid rgba(0, 0, 0, 0.308);
      
     }
@@ -320,23 +321,25 @@ p.h2description{
 
 /* section3 */
 .section3{
-  height: 155vh;
+  min-height: 155vh;
   border-bottom: 1px solid rgba(0, 0, 0, 0.116);
+  
 }
 
 div.goldblack_pottery{
   height: 90vh;
+  width: 90%;
   display: flex;
   line-height: 70px;
-
 align-items: center;
-justify-content: center;
+justify-content: space-evenly;
 margin-top: 4rem;
-gap: 4rem;
 margin-right: 10rem;
+margin-left: 1.5rem;
+gap:1rem;
 }
 img.pottery_image{
-width: 52%;
+width: 250px;
 height: 500px;
 position: relative;
 bottom: 9rem;
@@ -362,18 +365,18 @@ a:hover.view_details{
 
 div.image_container{
 background-color: #f5f5f5;
-  width: 480px;
+  width: 500px;
   height: 200px;
   margin-bottom: 2rem;
-  margin-right: 3rem;
 }
 div.section3_description{
 width: 410px;
+margin-right: 4rem;
 
 }
 div.section3_description2{
   width:410px;
-  margin-left: 5rem;
+  
 }
 div.float_right{
   color: rgba(0, 0, 0, 0.116);
@@ -391,15 +394,14 @@ div.orange_ceramic{
   height: 90vh;
   display: flex;
   line-height: 70px;
-justify-content: center;
-gap: 4rem;
-margin-right: 10rem;
+justify-content: space-evenly;
 margin-top: 3rem;
+margin-left: 1.5rem;
 
 
 }
 img.ceramic_image{
-  width: 78%;
+  width: 380px;
   height: 410px;
   position: relative;
   bottom: 7rem;
@@ -407,21 +409,23 @@ img.ceramic_image{
 }
 div.image_container2{
   background-color: #f5f5f5;
-    width: 41%;
-    height: 200px;
-    margin-bottom: 2rem;
+  width: 500px;
+  height: 200px;
+  margin-bottom: 2rem;
     margin-left: 7rem;
 
   }
 
 
   /* section4 */
-  
-
+ .section4{
+  min-height: 120vh;
+  margin-top: 8rem;
+ }
   p.sectin4_p{
     color: rgb(194, 42, 42);
   font-size: 15px;
-
+  
   }
   h2.section4_h2{
     font-size:35px;
@@ -432,15 +436,14 @@ div.image_container2{
     flex-direction: column;
     line-height: 3.5rem;
     align-items: center;
+  
   }
   img.section4_images{
     display: block;
     width: 100%;
-    height: 500px;
+   height: 500px;
     object-fit: cover;
     object-position: bottom;
-    
-    
   }
   
   a:link.allitemslinks,  a:visited.allitemslinks {
@@ -465,7 +468,9 @@ a.allitemslinks{
 div.section4_items{
   display: grid;
   grid-template-columns: repeat(3,1fr);
-  gap: 1rem;
+  gap: 1.3rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
   
 }
 a:link.view_allproducts, a:visited.view_allproducts {
@@ -588,20 +593,21 @@ position: relative;
 bottom:20rem;
 right: 4rem;
 
-
 }
+
+
 
  
 
 input.email_input{
-  width: 23%;
+  width: 330px;
   height: 50px;
   background-color: rgba(192, 192, 192, 0.158) ;
   border: 1px ridge rgba(192, 192, 192, 0.356);
   font-size: 15px;  
 }
 button.submit_button{
-  width: 13%;
+  width: 200px;
   height: 50px;
   color: white;
   background-color: black;
@@ -745,29 +751,273 @@ div.footer{
  }
 
 
+ /* media querry */
 
 
 
+ @media screen and (max-width: 990px) {
 
+  .section1{
+    width: 100%;
+    overflow: hidden;
+   height: 180vh;
 
+  }
+  div.section1_container{
+    width: 100%;
+   height: 140vh;
+    margin-left: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+  div.container_content{
+    width: 80%;
+   position: static;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+     }
+  
+  img.gold_blackvase{
+    height: 400px;
+    width: 100%;
+    margin: 1rem;
+  margin-right: 0rem;
+  padding-right: 0rem;
+  }
+  div.first_contents{
+    line-height: 3rem;
+display: flex;
+flex-direction: column;
+align-items: center;
+  }
 
+  /* section2/// */
+  div.float_left{
+    display: none;
+  }
 
+  div.items_container{ 
+    margin-left: 3rem ;
+   margin-right: 3rem;
+   gap: 2rem;
+  display: flex;
+  justify-content: space-between;
+ }
+ figure.vases ,figure.mugs, figure.plates{
+  width: 230px;
+  height: 230px ;
 
+ }
+ /* section3/// */
+ div.float_right{
+  display: none;
+ }
 
-   
+ div.goldblack_pottery{
+gap:2rem;
+}
+/* sectyion4// */
+img.section4_images{
+    display: block;
+    width: 100%;
+   height: 350px;
+    object-fit: cover;
+    object-position: bottom;
+  }
+  div.section4_items{
+   width: 90%;
+    height: 500px;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    margin-bottom: 25rem;
+  }
 
+ div.aside{
+  display:none
+ }
+ }
+ @media screen and (max-width: 880px) {
+  
+  
+  
+  section{
+   width:890px;
+  }
+  footer{
+    width:890px
+  }
+  .section2{
+    max-width:140%;
+  }
+  .section1{
+    width: 890px;
+  }
 
+ }
 
+ @media screen and (max-width:764px) {
+  .section2{
+    max-width: 160%;
+   min-height: 300vh;}
+  div.items_container{ 
+    flex-direction: column ;
+    align-items: center;
+   }
+   div.section2_description{
+    flex-direction: column;
+    gap: 4rem; 
+   }
+   h2.section2_secondh2{
+    font-size: 40px;
+  }
+  p.h2description{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.801);
+    line-height: 2rem;
+  }
+  /* section3/// */
+  .section3{
+    min-height: 300vh;
+  }
 
+  div.goldblack_pottery{
+    height: 200vh;
+    flex-direction: column;
+  align-items:start;
+  margin-top: 4rem;
+  }
+  img.pottery_image{
+    width: 300px;
+    height: 610px;
+    bottom: 9rem;
+    left: 15rem;
+    }
 
+    div.image_container{
+        width: 780px;
+        height: 300px;
+        margin-bottom: 0rem;
+      }
 
+      div.section3_description{
+        width: 700px;
+        margin-right: 0rem;
+        line-height: 7rem;
+        }
+        div.section3_description2{
+          width:700px;
+          line-height: 7rem;
+        }
 
+        h2.section3_h2{
+          font-size:30px
+        }
+        p.section3_paragraph{
+         color: rgba(0, 0, 0, 0.596);
+          font-size: 16px;
+          line-height: 24px;
+        }
+        div.orange_ceramic{
+          height: 140vh;
+          flex-direction: column-reverse;
+        justify-content: start;
+gap:5rem;
+        }
+        img.ceramic_image{
+          width: 450px;
+          height: 510px;
+          bottom: 7rem;
+          left: 10rem;
+        }
+        div.image_container2{
+          width: 780px;
+        height: 300px;
+          margin-bottom: 0rem;
+            margin-left: 0rem;
+        
+          }
+/* section4/// */
+div.section4_items{
+ display: block;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  height: 500vh;
+}
 
+.section4{
+height: 980vh;
+  margin-top: 70rem;
+ }
+ img.section4_images{
+  display: block;
+  width: 100%;
+ height: 900px;
+  object-fit: cover;
+  object-position: 0;
+  margin-top: 2REM;
+}
+div.section4_button{
+ position: relative;
+ top:185rem
+}
+a:link.view_allproducts, a:visited.view_allproducts {
+  width: 280px;
+  height: 70px;
+  padding: 20px 25px;
+ }
+ div.contact_information{
+  flex-direction: column;
+margin-top: 0rem;
+margin-right: 0rem;
+height: 120vh;
+}
+.section7{
+  height: 150vh;}
 
+  div.section7_description{
+     width:400px ;
+  }
 
+  h2.section7_header{
+    font-size: 38px;
+  }
+  p.section7_paragraph{
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.411);
+    line-height: 2rem;
+  }
 
+  figcaption.contacts{
+    font-size: 18px;
+  }
+  p.details{
+  font-size: 20px;
+  }
+  div.footer{
+    font-size: 18px;}
+ }
 
+ @media screen and (max-width:556px) {
+  .section2{
+    max-width: 240%;
+   }
 
+ }
+ 
+ @media screen and (max-width:370px) {
+  .section2{
+    max-width: 320%;
+   }
 
+ }
+ @media screen and (max-width:370px) {
+  .section2{
+    max-width: 400%;
+   }
 
-
+ }
