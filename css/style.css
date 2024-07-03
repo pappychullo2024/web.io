@@ -1056,7 +1056,7 @@ height: 120vh;
 
  }
 
- @media screen and (max-width:414px) {
+ @media screen and (max-width:390px) {
   img.gold_blackvase{
     height: 300px;
     width: 80%;
@@ -1102,36 +1102,4 @@ height: 120vh;
    }
 
  }
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
