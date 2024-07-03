@@ -693,7 +693,7 @@ div.all_information{
 /* section8//// */
 img.fixed_imaage{
   height: 30px;
-  width: 110%;
+  width: 40px;
   display: block;
  }
  .section8{
@@ -706,12 +706,12 @@ img.fixed_imaage{
   align-items: center;
   border-radius: 0.3rem;
   position: fixed;
-  bottom: 0px;
-  right: 0px;
+  bottom: 10px;
+  right: 10px;
   background-color:white;
   z-index: 1;
   cursor: pointer;
-  transform: translate(-20%, -20%);
+ 
  }
  button:link.fixedfooter{
   cursor: pointer;
@@ -761,7 +761,7 @@ div.footer{
   .section1{
     width: 100%;
     overflow: hidden;
-   height: 90vh;
+   height: 110vh;
 
   }
   div.section1_container{
@@ -864,11 +864,7 @@ img.section4_images{
   display:none
  }
 
- .section8{
 
-  width: 250px;
-  height: 40px;
-}
 
  }
  @media screen and (max-width: 880px) {
@@ -914,15 +910,16 @@ img.section4_images{
   }
   /* section3/// */
   .section3{
-    min-height: 300vh;
+    min-height: 230vh;
+    border: none;
   }
 
   div.goldblack_pottery{
-    height: 200vh;
+    height: 120vh;
     flex-direction: column;
   align-items:start;
   justify-content: center;
-  margin-top: -5rem;
+  margin-top: 2rem;
   gap: 10rem;
   }
   img.pottery_image{
@@ -997,20 +994,20 @@ div.section4_container{
 }
 
 .section4{
-height: 700vh;
+height: 820vh;
  
  }
  img.section4_images{
   display: block;
-  width: 100%;
- height: 900px;
+  width: 800px;
+ height: 1000px;
   object-fit: cover;
   object-position: bottom;
-  margin-top: 2REM;
+  margin-top: 0.5rem;
 }
 div.section4_button{
  position: relative;
- top:70rem
+ top:130rem
 }
 a:link.view_allproducts, a:visited.view_allproducts {
   width: 280px;
@@ -1055,26 +1052,6 @@ height: 120vh;
    }
 
  }
-
- @media screen and (max-width:390px) {
-  img.gold_blackvase{
-    height: 300px;
-    width: 80%;
-  }
-
-  .section4{
-    height: 770vh;
- }
-
- div.section4_button{
-  position: relative;
-  top:95rem
- }
-
- div.section4_container{
-  margin-top: 1rem;}
-}
-
  @media screen and (max-width:375px) {
 
 
