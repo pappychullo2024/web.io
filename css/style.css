@@ -757,10 +757,11 @@ div.footer{
 
  @media screen and (max-width: 990px) {
 
+  
   .section1{
     width: 100%;
     overflow: hidden;
-   height: 180vh;
+   height: 90vh;
 
   }
   div.section1_container{
@@ -783,10 +784,12 @@ div.footer{
   
   img.gold_blackvase{
     height: 400px;
-    width: 100%;
-    margin: 1rem;
+    width: 80%;
+    margin: 8rem;
   margin-right: 0rem;
   padding-right: 0rem;
+  position: relative;
+  right:4rem
   }
   div.first_contents{
     line-height: 3rem;
@@ -798,6 +801,9 @@ align-items: center;
   /* section2/// */
   div.float_left{
     display: none;
+  }
+ .section2{
+    min-height: 100vh;
   }
 
   div.items_container{ 
@@ -813,6 +819,9 @@ align-items: center;
 
  }
  /* section3/// */
+ .section3{
+  height: 100vh;
+ }
  div.float_right{
   display: none;
  }
@@ -824,21 +833,43 @@ gap:2rem;
 img.section4_images{
     display: block;
     width: 100%;
-   height: 350px;
+   height: 400px;
     object-fit: cover;
     object-position: bottom;
   }
   div.section4_items{
    width: 90%;
-    height: 500px;
+    height: 600px;
     margin-right: 2rem;
     margin-left: 2rem;
     margin-bottom: 25rem;
   }
+  div.section4_container{
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   gap: 3rem;
+   margin-top: -20rem;
+  }
+  .section4{
+    height:170vh ;
+  }
+  
+  
+
 
  div.aside{
   display:none
  }
+
+ .section8{
+
+  width: 250px;
+  height: 40px;
+}
+
  }
  @media screen and (max-width: 880px) {
   
@@ -860,9 +891,10 @@ img.section4_images{
  }
 
  @media screen and (max-width:764px) {
+
   .section2{
     max-width: 160%;
-   min-height: 300vh;}
+   min-height: 180vh;}
   div.items_container{ 
     flex-direction: column ;
     align-items: center;
@@ -889,13 +921,18 @@ img.section4_images{
     height: 200vh;
     flex-direction: column;
   align-items:start;
-  margin-top: 4rem;
+  justify-content: center;
+  margin-top: -5rem;
+  gap: 10rem;
   }
   img.pottery_image{
     width: 300px;
     height: 610px;
     bottom: 9rem;
     left: 15rem;
+    }
+    div.section3_container{
+      justify-content: center;
     }
 
     div.image_container{
@@ -923,10 +960,11 @@ img.section4_images{
           line-height: 24px;
         }
         div.orange_ceramic{
-          height: 140vh;
+          
           flex-direction: column-reverse;
         justify-content: start;
 gap:5rem;
+
         }
         img.ceramic_image{
           width: 450px;
@@ -943,27 +981,36 @@ gap:5rem;
           }
 /* section4/// */
 div.section4_items{
- display: block;
+display: block;
   margin-left: 2rem;
   margin-right: 2rem;
   height: 500vh;
+ 
+}
+div.section4_container{
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+ gap: 3rem;
 }
 
 .section4{
-height: 980vh;
-  margin-top: 70rem;
+height: 700vh;
+ 
  }
  img.section4_images{
   display: block;
   width: 100%;
  height: 900px;
   object-fit: cover;
-  object-position: 0;
+  object-position: bottom;
   margin-top: 2REM;
 }
 div.section4_button{
  position: relative;
- top:185rem
+ top:70rem
 }
 a:link.view_allproducts, a:visited.view_allproducts {
   width: 280px;
@@ -1008,11 +1055,45 @@ height: 120vh;
    }
 
  }
+
+ @media screen and (max-width:414px) {
+  img.gold_blackvase{
+    height: 300px;
+    width: 80%;
+  }
+
+  .section4{
+    height: 770vh;
+ }
+
+ div.section4_button{
+  position: relative;
+  top:95rem
+ }
+
+ div.section4_container{
+  margin-top: 1rem;}
+}
+
+ @media screen and (max-width:375px) {
+
+
+  .section1{
+    height: 115vh;
+  }
  
- @media screen and (max-width:370px) {
   .section2{
     max-width: 320%;
    }
+   .section4{
+    height: 970vh;
+ }
+
+ div.section4_button{
+  position: relative;
+  top:150rem
+ }
+
 
  }
  @media screen and (max-width:370px) {
@@ -1021,3 +1102,36 @@ height: 120vh;
    }
 
  }
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
