@@ -854,7 +854,7 @@ img.section4_images{
    margin-top: -20rem;
   }
   .section4{
-    height:170vh ;
+    min-height:170vh ;
   }
   
   
@@ -994,7 +994,7 @@ div.section4_container{
 }
 
 .section4{
-height: 820vh;
+min-height: 820vh;
  
  }
  img.section4_images{
