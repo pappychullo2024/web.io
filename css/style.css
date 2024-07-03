@@ -856,15 +856,9 @@ img.section4_images{
   .section4{
     min-height:170vh ;
   }
-  
-  
-
-
  div.aside{
   display:none
  }
-
-
 
  }
  @media screen and (max-width: 880px) {
