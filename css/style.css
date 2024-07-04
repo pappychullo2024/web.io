@@ -928,12 +928,14 @@ img.section4_images{
     }
     div.section3_container{
       justify-content: center;
+      margin: 4rem;
     }
 
     div.image_container{
         width: 780px;
         height: 300px;
         margin-bottom: 0rem;
+      
       }
 
       div.section3_description{
@@ -955,7 +957,6 @@ img.section4_images{
           line-height: 24px;
         }
         div.orange_ceramic{
-          
           flex-direction: column-reverse;
         justify-content: start;
 gap:5rem;
