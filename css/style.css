@@ -917,8 +917,8 @@ img.section4_images{
     flex-direction: column;
   align-items:start;
   justify-content: center;
-  margin-top: 2rem;
-  gap: 10rem;
+  margin-top: 5rem;
+  gap: 5rem;
   }
   img.pottery_image{
     width: 300px;
@@ -928,14 +928,13 @@ img.section4_images{
     }
     div.section3_container{
       justify-content: center;
-      margin: 4rem;
+      gap: -1rem;
     }
 
     div.image_container{
         width: 780px;
         height: 300px;
         margin-bottom: 0rem;
-      
       }
 
       div.section3_description{
