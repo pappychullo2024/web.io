@@ -901,8 +901,9 @@ img.section4_images{
   }
   /* section3/// */
   .section3{
-    min-height: 230vh;
+    min-height: 240vh;
     border: none;
+
   }
 
   div.goldblack_pottery{
@@ -910,7 +911,7 @@ img.section4_images{
     flex-direction: column;
   align-items:start;
   justify-content: center;
-  margin-top: 2rem;
+  margin-top: 6rem;
   gap: 10rem;
   }
   img.pottery_image{
@@ -986,9 +987,10 @@ div.section4_container{
 }
 
 .section4{
-min-height: 820vh;
-overflow: hidden;
- border: 2px solid red;
+height: auto;
+overflow-wrap: break-word;
+
+
  }
  img.section4_images{
   display: block;
