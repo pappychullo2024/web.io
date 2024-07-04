@@ -497,6 +497,9 @@ margin-top: 1rem;}
     bottom: 1rem;
   
   }
+  .section4{
+    min-height: auto;
+  }
 
   /* section5///// */
 
@@ -839,7 +842,7 @@ img.section4_images{
     height: 600px;
     margin-right: 2rem;
     margin-left: 2rem;
-    margin-bottom: 25rem;
+    margin-bottom: 1rem;
   }
   div.section4_container{
     height: 200vh;
@@ -848,10 +851,14 @@ img.section4_images{
     align-items: center;
     justify-content: center;
    gap: 3rem;
-   margin-top: -20rem;
+   margin-top: -10rem;
   }
+  div.section4_button{
+    position: relative;
+    top:25rem
+   }
   .section4{
-    min-height:170vh ;
+    min-height:auto ;
   }
  div.aside{
   display:none
@@ -901,9 +908,8 @@ img.section4_images{
   }
   /* section3/// */
   .section3{
-    min-height: 240vh;
-    border: none;
-
+    min-height: 230vh;
+   
   }
 
   div.goldblack_pottery{
@@ -911,7 +917,7 @@ img.section4_images{
     flex-direction: column;
   align-items:start;
   justify-content: center;
-  margin-top: 6rem;
+  margin-top: 2rem;
   gap: 10rem;
   }
   img.pottery_image{
@@ -969,39 +975,40 @@ gap:5rem;
         
           }
 /* section4/// */
+.section4{
+ min-height: 500vh;
+  display: flex;
+  overflow: auto;
+   }
+
 div.section4_items{
-display: block;
+display: flex;
+flex-direction: column;
   margin-left: 2rem;
   margin-right: 2rem;
-  height: 500vh;
- 
-}
+  height: auto;
+  width: auto;
+ }
 div.section4_container{
-  height: 900px;
+ height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
  gap: 3rem;
- padding-top: 20rem;
+ margin-top: 5rem;
+
 }
-
-.section4{
-height: auto;
-overflow-wrap: break-word;
-
-
- }
  img.section4_images{
-  display: block;
-  width: 800px;
- height: 1000px;
-  
+  display:block;
+width: 800px;
+  height: 1000px;
   margin-top: 0.5rem;
+  object-fit: cover;
 }
 div.section4_button{
- position: relative;
- top:122rem
+ position: static;
+
 }
 a:link.view_allproducts, a:visited.view_allproducts {
   width: 280px;
